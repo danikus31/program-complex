@@ -1,0 +1,23 @@
+printf("\e[1;1H\e[2J");
+printf(
+    "selectati programul\n\n1.	Program pentru a gasi "
+    "maxim intre doua numere.\n2.	Program pentru a gasi maxim între trei "
+    "numere.\n3.	Program pentru a verifica daca un numar este negativ, "
+    "pozitiv sau zero.\n4.	Program pentru a verifica daca un numar este "
+    "divizibil cu 5 și 11 sau nu.\n5.	Program pentru a verifica daca un "
+    "numar este par sau impar.\n6.	Program pentru a verifica daca un an "
+    "este bisect sau nu.\n7.	Program pentru a verifica daca un caracter "
+    "este sau nu alfabet.\n8.	Program pentru a introduce orice alfabet și "
+    "verificați daca este vocala sau consoana.\n9.	Program pentru a "
+    "introduce orice caracter și verificați daca este alfabet, cifra sau "
+    "caracter special.\n10.	Program pentru a verifica daca un caracter "
+    "este cu majuscule sau minuscule.\n11.	Program pentru a introduce "
+    "numarul saptamânii și a imprima ziua saptamânii.\n12.	Program pentru "
+    "a introduce numarul lunii și a imprima numarul de zile din luna "
+    "respectiva.\n13.	Program pentru a numara numarul total de note într-o "
+    "anumita cantitate.\n14.	Program pentru a introduce unghiurile unui "
+    "triunghi și verificați daca triunghiul este valid sau nu.\n15.	"
+    "Program pentru a introduce toate laturile unui triunghi și verificați "
+    "daca triunghiul este valid sau nu.\n16.	Program pentru a verifica daca "
+    "triunghiul este echilateral, isoscel sau triunghi scalen.\n17.	"
+    "Program pentru a gasi toate radacinile unei ecuații patratice.\n\n");
