@@ -1,7 +1,8 @@
 printf("\e[1;1H\e[2J");
+green("programe accesibile\n\n");
 printf(
-    "selectati programul\n\n1.	Program pentru a gasi "
-    "maxim intre doua numere.\n2.	Program pentru a gasi maxim între trei "
+    "1. Program pentru a gasi maxim intre doua numere.\n2.	Program pentru "
+    "a gasi maxim între trei "
     "numere.\n3.	Program pentru a verifica daca un numar este negativ, "
     "pozitiv sau zero.\n4.	Program pentru a verifica daca un numar este "
     "divizibil cu 5 și 11 sau nu.\n5.	Program pentru a verifica daca un "
@@ -20,4 +21,11 @@ printf(
     "Program pentru a introduce toate laturile unui triunghi și verificați "
     "daca triunghiul este valid sau nu.\n16.	Program pentru a verifica daca "
     "triunghiul este echilateral, isoscel sau triunghi scalen.\n17.	"
-    "Program pentru a gasi toate radacinile unei ecuații patratice.\n\n");
+    "Program pentru a gasi toate radacinile unei ecuații "
+    "patratice.\n---------------------------------\n18. Program pentru a "
+    "imprima toate "
+    "numerele naturale de la 1 la n. - folosind bucla while.\n19. Program "
+    "pentru a imprima toate numerele naturale invers (de la n la 1). - "
+    "folosind bucla while.\n20. Program pentru a imprima toate alfabetele de "
+    "la a la z. - folosind bucla while ");
+green("\n\nselectati programul introducând nr.\n");

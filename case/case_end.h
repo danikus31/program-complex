@@ -1,13 +1,19 @@
-case 100:
-printf("program de test\n");
-scanf(" %c", &a);
-printf("%c", a);
+case 100: // test app
+S_int_1;
+Pr_int_1;
 break;
+
 default:
-printf("exit");
+red("nu exista asa program, mai incearca");
 scanf("%c", &a);
 }
 
-printf("\n\n\n\nrestart program? (y/n)");
+// end screen and reset program
+printf("\n\n\n\n (");
+green("r");
+printf(") =  restart program /  (");
+red("m");
+printf(") = main menu\n");
 scanf(" %c", &a);
-man();
+(a == 'r') ? swither(Numb_swither) : man();
+}
